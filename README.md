@@ -12,8 +12,7 @@
     <a href="https://twitter.com/MarlinFirmware"><img alt="Follow MarlinFirmware on Twitter" src="https://img.shields.io/twitter/follow/MarlinFirmware?style=social&logo=twitter"></a>
 </p>
 
-Additional documentation can be found at the [Marlin Home Page](https://marlinfw.org/).
-Please test this firmware and let us know if it misbehaves in any way. Volunteers are standing by!
+This is stock Marlin 2.0.9.7 with my custom settings for my Ender 3 Pro machine.  This firmware *should* work as is if you have the same machine, board, and add-ons (BLtouch, etc).
 
 ## Marlin 2.0
 
