@@ -62,7 +62,7 @@
 // @section info
 
 // Author info of this build printed to the host during boot and M115
-#define STRING_CONFIG_H_AUTHOR "(Steven Krikstone, default Marlin Pro3)" // TR99 Who made the changes.
+#define STRING_CONFIG_H_AUTHOR "(Steven Krikstone, Marlin Pro3)" // TR99 Who made the changes.
 #define CUSTOM_VERSION_FILE Version.h // TR99 Path from the root directory (no quotes)
 
 /**
@@ -140,7 +140,7 @@
 
 // Printer's unique ID, used by some programs to differentiate between machines.
 // Choose your own or use a service like https://www.uuidgenerator.net/version4
-#define MACHINE_UUID "65dfd30f-7d52-49c6-8a08-8bbdfa6fb710" // TR99
+#define MACHINE_UUID "5ab5dff3-c011-42af-8382-eb864dd4a006" // TR99
 
 /**
  * Stepper Drivers
@@ -1745,7 +1745,7 @@
 //#define AUTO_BED_LEVELING_LINEAR
 #define AUTO_BED_LEVELING_BILINEAR // TR99
 //#define AUTO_BED_LEVELING_UBL
-#define MESH_BED_LEVELING
+// #define MESH_BED_LEVELING // TR99
 
 /**
  * Normally G28 leaves leveling disabled on completion. Enable one of
@@ -1758,7 +1758,7 @@
 /**
  * Auto-leveling needs preheating
  */
-//#define PREHEAT_BEFORE_LEVELING
+#define PREHEAT_BEFORE_LEVELING
 #if ENABLED(PREHEAT_BEFORE_LEVELING)
   #define LEVELING_NOZZLE_TEMP 120   // (°C) Only applies to E0 at this time
   #define LEVELING_BED_TEMP     50
@@ -1810,7 +1810,7 @@
 #if EITHER(AUTO_BED_LEVELING_LINEAR, AUTO_BED_LEVELING_BILINEAR)
 
   // Set the number of grid points per dimension.
-  #define GRID_MAX_POINTS_X 5
+  #define GRID_MAX_POINTS_X 4 // TR99
   #define GRID_MAX_POINTS_Y GRID_MAX_POINTS_X
 
   // Probe along the Y axis, advancing X after each column
