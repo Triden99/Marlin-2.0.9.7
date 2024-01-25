@@ -28,7 +28,7 @@
 /**
  * Marlin release version identifier
  */
-#define SHORT_BUILD_VERSION "2.0.9.7 T2" // TR99
+#define SHORT_BUILD_VERSION "2.0.9.7 T3-M1" // TR99
 
 /**
  * Verbose version identifier which should contain a reference to the location
@@ -41,12 +41,12 @@
  * here we define this default string as the date where the latest release
  * version was tagged.
  */
-#define STRING_DISTRIBUTION_DATE "2024-01-14" // TR99
+#define STRING_DISTRIBUTION_DATE "2024-01-25" // TR99
 
 /**
  * Defines a generic printer name to be output to the LCD after booting Marlin.
  */
-#define MACHINE_NAME "Taz Printer" // TR99
+#define MACHINE_NAME "Ender 3 Pro" // TR99  This may be the default?
 
 /**
  * The SOURCE_CODE_URL is the location where users will find the Marlin Source
