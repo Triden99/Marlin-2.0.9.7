@@ -81,16 +81,16 @@ void GcodeSuite::M77() {
       float new_filament_used = 0;
 
       if (parser.seenval('A')) {
-        new_total_prints = parser.value_int();
+        new_total_prints = parser.value_ulong();
       }
       if (parser.seenval('B')) {
-        new_finished_prints = parser.value_int();
+        new_finished_prints = parser.value_ulong();
       }
       if (parser.seenval('C')) {
-        new_print_time = parser.value_int();
+        new_print_time = parser.value_ulong();
       }
       if (parser.seenval('D')) {
-        new_longest_print = parser.value_int();
+        new_longest_print = parser.value_ulong();
       }
       if (parser.seenval('E')) {
         new_filament_used = parser.value_float();

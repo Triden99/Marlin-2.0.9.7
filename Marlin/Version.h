@@ -28,7 +28,7 @@
 /**
  * Marlin release version identifier
  */
-#define SHORT_BUILD_VERSION "2.0.9.7 T3-M1" // TR99
+#define SHORT_BUILD_VERSION "2.0.9.7 T4-M1" // TR99
 
 /**
  * Verbose version identifier which should contain a reference to the location
